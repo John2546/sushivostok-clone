@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111;
+    color: white;
+}
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav li {
+    margin-left: 1rem;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    color: white;
+}
+.hero button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.menu {
+    padding: 2rem;
+    background-color: white;
+}
+.menu .items {
+    display: flex;
+    justify-content: space-around;
+}
+.menu .item {
+    text-align: center;
+}
+.order {
+    padding: 2rem;
+}
+.contact {
+    background-color: #eee;
+    padding: 2rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    color: white;
+}
